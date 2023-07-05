@@ -81,7 +81,3 @@ def tela_de_cadastro():
     voltar_tela_principal.pack(padx=10, pady=10)
 
     janela_cadastro.mainloop()
-
-
-tela_escolha()
-
