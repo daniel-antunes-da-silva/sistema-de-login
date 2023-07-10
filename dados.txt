@@ -3,3 +3,4 @@ ryuk,kira
 sabrina,139
 soraia,2050
 abcd,1234
+bemvindo,ola1234

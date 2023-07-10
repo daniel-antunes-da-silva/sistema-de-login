@@ -1,6 +1,10 @@
 # sistema-de-login
-Sistema de login com interface gráfica.
-Foi trocado do customtkinter pro tkinter, devido a alguns problemas encontrados pelo caminho.
-Por enquanto, ainda não é possível utilizar as funcionalidades de criar cadastro e fazer login.
+Sistema de cadastro e login com interface gráfica usando tkinter
+É possível cadastrar novos usuários em um simulador de banco de dados (com arquivo .txt), 
+e fazer login verificando se o usuário e senha realmente existem. O usuário e senha são 
+separados por vírgula.
 
-Próximos passos: Criar o cadastro e tornar possível efetuar o login, usando txt como banco de dados.
+Ao fazer cadastro de um novo usuário, aparece uma tela de sucesso, e a janela é fechada para abrir a de login.
+Ao fazer o login com usuário e senha que existam, aparece uma mensagem de que foi efetuado com sucesso.
+Caso o usuário ou senha não existam, é exibida uma mensagem de erro, informando que os dados não estão
+no banco de dados.
